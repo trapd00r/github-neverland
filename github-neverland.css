@@ -364,8 +364,8 @@
  }
 
  .news .alert .gravatar {
-  background-color: #303030 !important;
-  border: 1px solid #404040 !important;
+  background-color: #121212 !important;
+  border: 1px solid #121212 !important;
   float: left !important;
  }
 
@@ -374,5 +374,10 @@
   background-color: #303030 !important;
   color: #b9b9b9 !important;
  }
+
+ .highlight .c {
+  font-style: normal !important;
+ }
+
 
 }
