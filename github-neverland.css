@@ -2,12 +2,12 @@
 
 @-moz-document domain("github.com") {
 
- body,#main,.unread_count,.pagehead,#browser table th,.main,.news .alert .body,.profilecols ul.stats li strong,
- table.upgrades tr.current td,.definitions,#files .file .data {
+body,#main,.unread_count,.pagehead,#browser table th,.main,.news .alert .body,.profilecols ul.stats li strong,
+table.upgrades tr.current td,.definitions,#files .file .data {
   background:#121212 url() !important;
   color:#ddd !important;
   margin-bottom:0 !important;
- }
+}
 
  /* Prevent overflow issues */
  #dashboard,.highlight {
@@ -379,5 +379,28 @@
   font-style: normal !important;
  }
 
+ #issues_next .labels .label a {
+   background: #202020 !important;
+ }
 
+#issues_next #issues_list .main .actions {
+  background: #202020 !important;
+}
+
+#issues_next > .browser_header ul.main_nav li.selected a {
+  background: #202020 !important;
+}
+
+#issues_next #issues_list .main .filterbar ul.filters li.selected {
+  background: #202020 !important;
+}
+
+#issues_next .filterbar ul.sorts li.asc, #issues_next .filterbar ul.sorts li.desc {
+  background-color: #282828 !important;
+  border-color: #404040 !important;
+}
+
+#issues_next #issues_list .main .filterbar ul.filters li {
+  background: #202020 !important;
+}
 }
