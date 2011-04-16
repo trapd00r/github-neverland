@@ -263,8 +263,8 @@ table.upgrades tr.current td,.definitions,#files .file .data {
 
  /* Green panel */
  .octofication .message,#revisions ul li.current,.highlight .gi,.excerpt {
-  background-color:#305530 !important;
-  border-color:#305530 !important;
+  background-color: #202020 !important;
+  border-color:#141414 !important;
  }
 
  .textographic a.repo,#network .repo span {
@@ -325,10 +325,12 @@ table.upgrades tr.current td,.definitions,#files .file .data {
 
  #dashboard .filter-bar .filter_input {
   background-image:url(http://mottie.github.com/Github-Dark/images/filter_input.gif) !important;
+  border: small !important;
  }
 
  .profilecols h2 .repo-filter input {
   background-image:url(http://mottie.github.com/Github-Dark/images/profile_filter_input.gif) !important;
+  border: small !important;
  }
 
  input.gist-name-textbox.notnative.placeholder {
@@ -403,4 +405,8 @@ table.upgrades tr.current td,.definitions,#files .file .data {
 #issues_next #issues_list .main .filterbar ul.filters li {
   background: #202020 !important;
 }
+
+.topsearch form input.search {
+  font-size: 10px !important;
+  width: 130px !important;
 }
