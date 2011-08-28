@@ -113,6 +113,11 @@ table.upgrades tr.current td,.definitions,#files .file .data {
   border: 1px solid #303030 !important;
  }
 
+ .participation-graph {
+   background: none repeat scroll 0 0 #161616 !important;
+   border-color: #2b2b2b #2b2b2b #2b2b2b #2b2b2b !important;
+ }
+
  /* Panel background (#1f1f1f), leave image, no border, with radius */
  .pagehead ul.actions a.feed,.notification-settings,.explore h2 .feed,#code_search_instructions h2,td.inst,.metabox-loader,
  .context-loader,.browser-content,.comment,.wikistyle p,.filterbar ul.filters li,.pagehead ul.tabs li.contextswitch,
@@ -325,12 +330,10 @@ table.upgrades tr.current td,.definitions,#files .file .data {
 
  #dashboard .filter-bar .filter_input {
   background-image:url(http://mottie.github.com/Github-Dark/images/filter_input.gif) !important;
-  border: small !important;
  }
 
  .profilecols h2 .repo-filter input {
   background-image:url(http://mottie.github.com/Github-Dark/images/profile_filter_input.gif) !important;
-  border: small !important;
  }
 
  input.gist-name-textbox.notnative.placeholder {
@@ -409,4 +412,6 @@ table.upgrades tr.current td,.definitions,#files .file .data {
 .topsearch form input.search {
   font-size: 10px !important;
   width: 130px !important;
+}
+
 }
